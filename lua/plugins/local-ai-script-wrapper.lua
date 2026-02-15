@@ -1,10 +1,6 @@
 return {
   {
-    dir = vim.fn.stdpath("config") .. "/local-plugins/curl-ai",
-    name = "curl-ai",
-    -- EITHER load always:
-    -- lazy = false,
-    -- OR lazy-load on your commands:
+    "kayushkin/local-ai-script-wrapper",
     cmd = { "Claude", "Gemini", "OpenAI" },
     -- You can also lazy-load on keys:
     keys = {
